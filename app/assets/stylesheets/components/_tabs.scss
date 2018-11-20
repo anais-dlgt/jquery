@@ -1,0 +1,45 @@
+.container ul:first-child
+{
+  list-style-type: none;
+}
+
+.card ul
+{
+  list-style-type: circle !important;
+}
+
+.container .title
+{
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: 0.5px solid #40A497;
+  color: #40A497;
+  margin: 1px;
+  display: inline-block;
+  float: left;
+}
+
+.card
+{
+  float: right;
+  width: 100%;
+  margin : 2.5em 20px 0 -100%;
+  padding: 20px;
+}
+
+.container .title:hover
+{
+  background-color: #8CD5CB;
+  font-weight: bold;
+  cursor: grab;
+}
+
+.container .active
+{
+  font-weight: bold;
+  background-color: #40A497;
+  border: 0.5px solid white;
+  color: white;
+}
