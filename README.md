@@ -1,8 +1,8 @@
 <h1 align="center">📝 TODOLIST 📝</h1>
 
 Voici une application où les utilisateurs pourront créer des listes afin d'y assigner des petites tâches. </br>
-Par exemple :</br>
-**Courses**</br>
+Par exemple :</br></br>
+**Courses**
 - [x] Fromage
 - [x] Beurre
 - [ ] PQ
@@ -38,13 +38,13 @@ Tu peux retrouver notre application final via le lien suivant : https://todolist
 Si tu veux rentrer dans le vif du sujet, clone le repo :
 > `$git clone https://github.com/anais-dlgt/jquery.git`
 
-Faire le bundle install :
+Fais le bundle install :
 > `$bundle install`
 
-Faire la création/migration de la base :
+Fais la création/migration de la base :
 > `$rails db:create`
 > `$rails db:create`
 
 ## 🍻 L'équipe 🍻
 
-Ce projet a été réalisé par Virginie Valeur Hannebicque, Anaïs Diologeant, Mustapha Ait Ouayhou et Thomas Perus.
+Ce projet a été réalisé par une partie de la team Welsh (Lille rpz) avec Virginie Valeur Hannebicque, Anaïs Diologeant, Mustapha Ait Ouayhou et Thomas Perus.
