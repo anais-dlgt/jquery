@@ -33,7 +33,7 @@ Nous avons créé un carrousel, c'est-à-dire un bloc qui affiche des images et 
 
 ## 🎉 Rendu final 🎉
 
-Tu peux retrouver notre application final via le lien suivant : https://todolist-thp.herokuapp.com/
+Tu peux retrouver notre application final via 👉 <a href="https://todolist-thp.herokuapp.com/" target="_blank">Super site de la mort qui tue</a> 🦄🦄🦄
 
 Si tu veux rentrer dans le vif du sujet, clone le repo :
 > `$git clone https://github.com/anais-dlgt/jquery.git`
