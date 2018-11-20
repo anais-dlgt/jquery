@@ -42,7 +42,7 @@ Fais le bundle install :
 > `$bundle install`
 
 Fais la création/migration de la base :
-> `$rails db:create`
+> `$rails db:create` </br>
 > `$rails db:create`
 
 ## 🍻 L'équipe 🍻
