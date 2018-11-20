@@ -65,3 +65,9 @@ slideImg();
 
 
 });
+
+$(document).ready(function(){
+sliderEvents();
+//startSlider();
+
+});
