@@ -1,4 +1,4 @@
   <h2><%= @email.object %></h2>
   <p><%= @email.body %></p>
   <hr>
-  <button class="delete" data-id="<%=@email.id%>"><%= link_to 'Supprimer', email_path(@email.id), :method => :delete, data: { confirm: "En es-tu sûr ?"}, :remote => true %></button>
+  <button class="delete btn btn-danger" data-id="<%=@email.id%>"><%= link_to 'Supprimer', email_path(@email.id), :method => :delete, data: { confirm: "En es-tu sûr ?"}, :remote => true, :class => 'delete-link'%></button>
