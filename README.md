@@ -1,6 +1,7 @@
 <h1 align="center">📝 EMAIL VIEWER 📝</h1>
 
 Voici une application où les utilisateurs pourront lire des emails et les supprimer.
+N'hésite pas à nous prévenir si tous les emails sont lus en prod, on fera un coup de `heroku run rails db:seed` pour que tu puisses voir le rendu 😉
 
 ## 🛠 Les fonctionnalités 🛠
 
