@@ -19,5 +19,5 @@ require 'faker'
 end
 
 10.times do
-  email = Email.create(object: Faker::Artist.name,body: Faker::Community.quotes, read: false)
+  email = Email.create(object: Faker::Lorem.sentence,body: Faker::Lorem.paragraphs, read: false)
 end
