@@ -1,0 +1,15 @@
+<h1> Boîte de réception </h1>
+
+<div class="container">
+  <div class="row">
+    <% @email.each do |mail| %>
+    <div class="col">
+
+      <%= link_to mail.object, email_show_path(:id => mail.id), :remote => true %>
+    </div>
+
+  </div>
+  <% end %>
+  <div id="body_email">
+
+  </div>
