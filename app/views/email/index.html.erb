@@ -12,11 +12,13 @@
         <% @email.each do |mail| %>
         <% if mail.read == false %>
         <tr>
-          <td><%= link_to mail.object, email_show_path(:id => mail.id), :class => 'unread', :remote => true %></td>
+          <td class="object<%=mail.id%>"><%= link_to mail.object, mail, :class => 'unread', :remote => true %></td>
+          <td>le <%=mail.created_at.strftime("%d/%m/%Y")%></td>
         </tr>
         <% else %>
         <tr>
-          <td><%= link_to mail.object, email_show_path(:id => mail.id), :class => 'read', :remote => true %></td>
+          <td class="object<%=mail.id%>"><%= link_to mail.object, mail, :class => 'read', :remote => true %></td>
+          <td>le <%=mail.created_at.strftime("%d/%m/%Y")%></td>
         </tr>
         <% end %>
         <% end %>

@@ -1,6 +1,8 @@
 $(document).ready(function() {
-    $('#show').empty();
-    $('.<%= email.id %>').html("<%= j (render email) %>");
-    $(document).on('turbolinks:load', function(){
-        alert('Message supprimé !');
+  $('.object<%=params[:id]%>').remove();
 });
+
+$('.delete').bind('ajax:success', function() {
+      $(this).closest('#body_email').fadeOut();
+      location.reload();
+    });
