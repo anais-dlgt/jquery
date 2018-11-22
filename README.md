@@ -1,35 +1,28 @@
-<h1 align="center">📝 TODOLIST 📝</h1>
+<h1 align="center">📝 EMAIL VIEWER 📝</h1>
 
-Voici une application où les utilisateurs pourront créer des listes afin d'y assigner des petites tâches. </br>
-Par exemple :</br></br>
-**Courses**
-- [x] Fromage
-- [x] Beurre
-- [ ] PQ
+Voici une application où les utilisateurs pourront lire des emails et les supprimer.
 
 ## 🛠 Les fonctionnalités 🛠
 
-Nous avons ajouté plusieurs animations à cette application grâce à JQuery dont tu trouveras le détail ci-dessous.
+Nous avons ajouté plusieurs fonctionnalités à cette application grâce à JQuery et AJAX dont tu trouveras le détail ci-dessous.
 
-### ✏️ Tabulation ✏️
+### ✏️ Colonne liste ✏️
 
-Comme tu peux le constater, il y a actuellement 3 listes avec 3 items.
-Nous avons créé un système de tabulation sur la page d'accueil qui permet de naviguer entre ces 3 listes sans changer de page.
+Une liste affiche l'objet de tous les emails.
 
-### 🎨 Le front 🎨
+### 🎨 Colonne contenu 🎨
 
-1. **Un petit dropdown qui fait plaisir**</br>
-Lors du hover sur l'avatar, tu constateras qu'un dropdown révèle les fonctionnalités de login, logout et de connexion.
+Quand on clique sur un email dans la colonne liste, une colonne contenu apparaît avec :
 
-2. **Modales de connexion/inscription**</br>
-Lorsque tu cliques sur les liens du dropdown, une jolie modale qui va permettre la connexion et l'inscription.
+1. L'objet de l'email en gros</br>
 
-3. **Une navbar responsive**</br>
-Lorsque qu'un utilisateur se connecte via un smartphone ou une tablette, il n'aura aucun souci à se repérer sur la navbar puisqu'elle celle-ci s'adaptera à la taille de son écran.
+2. Le corps de l'email en taille normale</br>
 
-### 🎠 Carrousel 🎠
+3. Un bouton pour supprimer l'email</br>
 
-Nous avons créé un carrousel, c'est-à-dire un bloc qui affiche des images et qui les fait défiler. Des boutons *Précédent* et *Suivant* permettent de naviguer plus rapidement entre ces images. Enfin, des ronds permettent de se repérer au sein du carrousel.
+### 📝 Emails non lus 📝
+
+Les emails non lus s'affichent en gras, ce font-weight disparaît lorsque l'utilisateur clique dessus.
 
 ## 🎉 Rendu final 🎉
 
@@ -43,7 +36,8 @@ Fais le bundle install :
 
 Fais la création/migration de la base :
 > `$rails db:create` </br>
-> `$rails db:migrate`
+> `$rails db:migrate` </br>
+> `$rails db:seed`
 
 ## 🍻 L'équipe 🍻
 
